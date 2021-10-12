@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SearchHistoryDBModelStoreContainer" CdmEntityContainer="SearchHistoryDBEntities">
+    <EntitySetMapping Name="search_history">
+      <EntityTypeMapping TypeName="SearchHistoryDBModel.search_history">
+        <MappingFragment StoreEntitySet="search_history">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="weather" ColumnName="weather" />
+          <ScalarProperty Name="description" ColumnName="description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
